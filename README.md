@@ -1,36 +1,39 @@
-# TypeScript Example
+# Currency Converter
 
-<p>
-  <!-- iOS -->
-  <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
-  <!-- Android -->
-  <img alt="Supports Expo Android" longdesc="Supports Expo Android" src="https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff" />
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+This is a simple currency converter app that allows users to convert Czech Koruna (CZK) to various other currencies. The app is built using React Native and utilizes the React Query library for fetching data from the Czech National Bank's API.
 
-```sh
-npx create-react-native-app -t with-typescript
-```
+## Features
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
+- Convert Czech Koruna (CZK) to other currencies
+- List of supported currencies with their respective conversion rates
+- Automatic fetching of currency conversion rates
 
-## 🚀 How to use
+## Installation
 
-#### Creating a new project
+1. Make sure you have Node.js and npm installed on your system. You can download Node.js from [here](https://nodejs.org/en/), which will also install npm.
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
+2. Install the Expo CLI:
+  ```npm install -g expo-cli```
+3. Clone the repository:
+```git clone https://github.com/JeffOtano/CurrencyConverter.git```
+4.Change into the project directory:
+```cd CurrencyConverter```
+5.Install dependencies:
+```yarn```
 
-### Adding TypeScript to existing projects
+## Running the App
 
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
+1. Start the Expo development server:
+```yarn start```
 
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
+   This will run the expo cli in your console.
 
-## 📝 Notes
+2. Install the Expo app on your mobile device from the App Store or Google Play Store.
 
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
+3. Scan the QR code displayed in the console window using your camera or the Expo app on your mobile device.
+
+4. The app will now load on your device.
+
+
+
+
