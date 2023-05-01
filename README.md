@@ -16,9 +16,11 @@ This is a simple currency converter app that allows users to convert Czech Korun
   ```npm install -g expo-cli```
 3. Clone the repository:
 ```git clone https://github.com/JeffOtano/CurrencyConverter.git```
-4.Change into the project directory:
+
+4. Change into the project directory:
 ```cd CurrencyConverter```
-5.Install dependencies:
+
+5. Install dependencies:
 ```yarn```
 
 ## Running the App
